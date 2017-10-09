@@ -158,6 +158,7 @@ public class Camera_Controller : MonoBehaviour {
 	float standardSmooth;
 	Vector3 worldFocus = Vector3.zero;
 	Vector3 worldPivot = Vector3.zero;
+    Transform worldTarget = null;
 
 	public Vector3 worldPos{
 		get{return worldPivot;}
@@ -233,10 +234,12 @@ public class Camera_Controller : MonoBehaviour {
 	}
 
 	void MoveToTarget(){
-
+        
 		if(useWorldSpace){
 			targetPos = worldFocus;
 			destination = worldPivot;
+            if (worldTarget != null)
+                targetPos += worldTarget.position;
 		}
 		else{
 			targetPos = targBody.position + Vector3.up * camTrans.targetPosOffset.y + 
@@ -279,9 +282,17 @@ public class Camera_Controller : MonoBehaviour {
 
 		//determining coordinate space
 		if(useWorldSpace){
-			targetRotation = Quaternion.LookRotation(worldFocus - transform.position);
+            //assign world space offset of focus point
+            Vector3 interestPoint = worldFocus - transform.position;
+
+            //if focus point in world space has a set target, focus on target with offset
+            if (worldTarget != null)
+                interestPoint += worldTarget.position;
+            
+			targetRotation = Quaternion.LookRotation(interestPoint);
 		}
 		else{
+            //standard focus on player object
 			targetRotation = Quaternion.LookRotation(targetPos - transform.position);
 		}
 
@@ -311,7 +322,10 @@ public class Camera_Controller : MonoBehaviour {
 
 	}
 
-	void ZoomInOnTarget(){
+    /*Description:
+     * Uses input controls to change distance between character and camera
+    */
+    void ZoomInOnTarget(){
 		camTrans.distanceFromTarget += zoomInput * camTrans.zoomSmooth;
 
 		if(camTrans.distanceFromTarget > camTrans.maxZoom){
@@ -322,7 +336,12 @@ public class Camera_Controller : MonoBehaviour {
 		}
 	}
 
-	public void turnOnWorldView(Vector3 worldFocus, Vector3 worldPivot,float smoothDuration){
+    /*Description:
+     * Changes camera view to world space, where the the camera's position is set in world space as worldPivot and 
+     *      the focus point of the camera is set with worldFocus. Optionally, the focus point of the camera can be assigned
+     *      to a transform with offset worldFocus.
+    */
+	public void turnOnWorldView(Vector3 worldFocus, Vector3 worldPivot,float smoothDuration,Transform subject = null){
 		this.worldFocus = worldFocus;
 		this.worldPivot = worldPivot;
 		camTrans.smooth = smoothDuration;
@@ -337,9 +356,14 @@ public class Camera_Controller : MonoBehaviour {
 			LookAtTarget();
 		}
 
+        worldTarget = subject;
+
 	}
 
-	public void turnOffWorldView(){
+    /*Description:
+     * Returns camera settings to standard (i.e. focus on player object with standard camera controls)
+    */
+    public void turnOffWorldView(){
 		useWorldSpace = false;
 		camTrans.smoothFollow = wasSmoothFollow;
 		camTrans.smooth = standardSmooth;

@@ -11,10 +11,12 @@ public class Bus_FollowPhysics : MonoBehaviour {
 
 		busPhysics = GameObject.Find(transform.parent.name + "/bus_physics").
 			GetComponent<Transform>();
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		transform.position = busPhysics.position;
+        transform.rotation = busPhysics.rotation;
 	}
 }

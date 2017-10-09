@@ -37,6 +37,9 @@ ModelImporter:
     100058: WheelUp.001
     100060: WheelUp.002
     100062: ArmatureWheels
+    100064: BusFrame
+    100066: Wheel.003
+    100068: Doors
     400000: ArmatureBackWheels
     400002: ArmatureDoors
     400004: //RootNode
@@ -69,20 +72,30 @@ ModelImporter:
     400058: WheelUp.001
     400060: WheelUp.002
     400062: ArmatureWheels
+    400064: BusFrame
+    400066: Wheel.003
+    400068: Doors
     2300000: BusFrame_Interior
     2300002: Wheel
     2300004: Wheel.001
     2300006: Wheel.002
+    2300008: BusFrame
+    2300010: Wheel.003
     3300000: BusFrame_Interior
     3300002: Wheel
     3300004: Wheel.001
     3300006: Wheel.002
+    3300008: BusFrame
+    3300010: Wheel.003
     4300000: LeftDoor
     4300002: RightDoor
     4300004: Wheel
     4300006: Wheel.001
     4300008: Wheel.002
     4300010: BusFrame_Interior
+    4300012: BusFrame
+    4300014: Wheel.003
+    4300016: Doors
     7400000: ArmatureDoors|DoorClose
     7400002: ArmatureDoors|DoorOpen
     7400004: ArmatureBackWheels|DoorClose
@@ -109,6 +122,7 @@ ModelImporter:
     9500000: //RootNode
     13700000: LeftDoor
     13700002: RightDoor
+    13700004: Doors
   materials:
     importMaterials: 1
     materialName: 0
@@ -763,7 +777,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 5
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

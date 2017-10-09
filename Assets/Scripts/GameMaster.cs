@@ -32,10 +32,10 @@ public class GameMaster : MonoBehaviour {
 				mScreen.DeliverDialogue( new string[] {" It was early in the morning as I sat on a bench on the sidewalk " +
 									 "alongside other kids, waiting for the bus to arrive. I had kept to " +
 									 "myself, distancing myself from the surrounding kids."} );
-				mCamera.turnOnWorldView(player.position+Vector3.up*3.0f,
-					player.position - Vector3.right *10.0f + Vector3.up*3.0f,0);
-				mCamera.turnOnWorldView(player.position+Vector3.up*4.0f,
-					player.position -Vector3.right *3.0f + Vector3.up*6.0f,5.0f);
+				mCamera.turnOnWorldView(Vector3.up*3.0f,
+					 player.position - Vector3.right *10.0f + Vector3.up*3.0f,0,player);
+				mCamera.turnOnWorldView(Vector3.up*4.0f,
+					player.position - Vector3.right *3.0f + Vector3.up*6.0f,5.0f,player);
 			});
 
 			//condition 1: Wait for user to complete dialogue
@@ -54,12 +54,23 @@ public class GameMaster : MonoBehaviour {
 				//preparation
 				Camera_Controller mCamera = GameObject.Find("Main Camera").GetComponent<Camera_Controller>();
 				Transform fPoint = GameObject.Find("bus/bus_mesh").GetComponent<Transform>();
+                Collider[] busPoints = new Collider[4];
+                Bus_Movement busPlan = GameObject.Find("bus/bus_physics").GetComponent<Bus_Movement>();
+
+                for(int index = 1; index < 4; index++)
+                {
+                    busPoints[index - 1] = GameObject.Find("BusTargets/BusTarget" + Convert.ToString(index)).
+                                            GetComponent<Collider>();
+                }
 
 				//execution
-				mCamera.turnOnWorldView(fPoint.position +Vector3.up * 3.0f,
-					mCamera.worldPos,5.0f);
-				for(int index = 1; index < 4;index++){
-				}
+				mCamera.turnOnWorldView(Vector3.up * 3.0f,
+					mCamera.worldPos,5.0f,fPoint);
+
+                for(int index = 0; index < 3; index++) {
+                    busPlan.addDrivePoint(busPoints[index]);
+                }
+
 			});
 
 			//condition 2: to be determined

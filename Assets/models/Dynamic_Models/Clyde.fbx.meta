@@ -496,6 +496,7 @@ ModelImporter:
     100976: GZM_Tongue.001
     100978: GZM_UpLid
     100980: GZM_UpLid.001
+    100982: Clyde:Glasses
     400000: ankle.ik.L
     400002: ankle.ik.R
     400004: ankle.L
@@ -987,6 +988,7 @@ ModelImporter:
     400976: GZM_Tongue.001
     400978: GZM_UpLid
     400980: GZM_UpLid.001
+    400982: Clyde:Glasses
     2300000: Glasses
     2300002: GZM_Ball025
     2300004: GZM_Ball025.001
@@ -1046,6 +1048,8 @@ ModelImporter:
     2300112: GZM_Tongue.001
     2300114: GZM_UpLid
     2300116: GZM_UpLid.001
+    2300118: Clyde:Glasses
+    2300120: //RootNode
     3300000: Glasses
     3300002: GZM_Ball025
     3300004: GZM_Ball025.001
@@ -1105,6 +1109,8 @@ ModelImporter:
     3300112: GZM_Tongue.001
     3300114: GZM_UpLid
     3300116: GZM_UpLid.001
+    3300118: Clyde:Glasses
+    3300120: //RootNode
     4300000: Glasses
     4300002: Clyde:Shoes02
     4300004: Clyde:Male_casualsuit06
@@ -1173,6 +1179,7 @@ ModelImporter:
     4300130: GZM_Ball025
     4300132: GZM_Jaw
     4300134: GZM_CircleSpine
+    4300136: Clyde:Glasses
     7400000: Walk.001
     7400002: Wait.001
     7400004: Sitdown.001
@@ -1187,6 +1194,7 @@ ModelImporter:
     13700012: Clyde:Short01
     13700014: Clyde:Teeth_shape02
     13700016: Clyde:Tongue01
+    13700018: Clyde:Glasses
   materials:
     importMaterials: 1
     materialName: 0
