@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: c03302e11ae887d49925d864e4935203
-timeCreated: 1502763949
+timeCreated: 1509512980
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: ankle.ik.L
@@ -436,6 +436,33 @@ ModelImporter:
     100856: upper_arm.ik.R
     100858: upper_arm.L
     100860: upper_arm.R
+    100862: Amber
+    100864: Amber:Body
+    100866: Amber:Female_casualsuit02
+    100868: Amber:High-poly
+    100870: Amber:Long01
+    100872: Amber:Shoes04
+    100874: chest1
+    100876: ElbowPole.L
+    100878: ElbowPole.L_end
+    100880: ElbowPole.R
+    100882: ElbowPole.R_end
+    100884: footIK.L
+    100886: footIK.L_end
+    100888: footIK.R
+    100890: footIK.R_end
+    100892: handIK.L
+    100894: handIK.L_end
+    100896: handIK.R
+    100898: handIK.R_end
+    100900: KneePole.L
+    100902: KneePole.L_end
+    100904: KneePole.R
+    100906: KneePole.R_end
+    100908: shoulder.L
+    100910: shoulder.R
+    100912: tongue_mod
+    100914: AmberArmature
     400000: //RootNode
     400002: ankle.ik.L
     400004: ankle.ik.R
@@ -867,8 +894,45 @@ ModelImporter:
     400856: upper_arm.ik.R
     400858: upper_arm.L
     400860: upper_arm.R
+    400862: Amber
+    400864: Amber:Body
+    400866: Amber:Female_casualsuit02
+    400868: Amber:High-poly
+    400870: Amber:Long01
+    400872: Amber:Shoes04
+    400874: chest1
+    400876: ElbowPole.L
+    400878: ElbowPole.L_end
+    400880: ElbowPole.R
+    400882: ElbowPole.R_end
+    400884: footIK.L
+    400886: footIK.L_end
+    400888: footIK.R
+    400890: footIK.R_end
+    400892: handIK.L
+    400894: handIK.L_end
+    400896: handIK.R
+    400898: handIK.R_end
+    400900: KneePole.L
+    400902: KneePole.L_end
+    400904: KneePole.R
+    400906: KneePole.R_end
+    400908: shoulder.L
+    400910: shoulder.R
+    400912: tongue_mod
+    400914: AmberArmature
     2300000: //RootNode
+    2300002: Amber:Body
+    2300004: Amber:Female_casualsuit02
+    2300006: Amber:High-poly
+    2300008: Amber:Long01
+    2300010: Amber:Shoes04
     3300000: //RootNode
+    3300002: Amber:Body
+    3300004: Amber:Female_casualsuit02
+    3300006: Amber:High-poly
+    3300008: Amber:Long01
+    3300010: Amber:Shoes04
     4300000: Extraf002:Shoes04
     4300002: Extraf002:Female_casualsuit02
     4300004: Extraf002:Tongue01
@@ -878,8 +942,16 @@ ModelImporter:
     4300012: Extraf002:High-poly
     4300014: Extraf002:Ponytail01
     4300016: Extraf002:Body
+    4300018: Amber:Shoes04
+    4300020: Amber:Female_casualsuit02
+    4300022: Amber:High-poly
+    4300024: Amber:Long01
+    4300026: Amber:Body
     7400000: Walk.001
     7400002: Wait.001
+    7400004: Standup.001
+    7400006: Sitdown.001
+    7400008: Idle
     9500000: //RootNode
     13700000: Extraf002:Body
     13700002: Extraf002:Eyebrow003
@@ -890,1816 +962,135 @@ ModelImporter:
     13700012: Extraf002:Shoes04
     13700014: Extraf002:Teeth_shape04
     13700016: Extraf002:Tongue01
+    13700018: Amber:Body
+    13700020: Amber:Female_casualsuit02
+    13700022: Amber:High-poly
+    13700024: Amber:Long01
+    13700026: Amber:Shoes04
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amber_Body_Defaultskin
+    second: {fileID: 2100000, guid: d21313ed86b7c5e429064ee9d04201a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amber_Female_casualsuit02_Female_casualsuit02
+    second: {fileID: 2100000, guid: 26ccba0da8c19ac4eabaf8189ef20289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amber_High-poly_Eye_brown
+    second: {fileID: 2100000, guid: a965cf696e4f9d44abd05c51f7448dda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amber_Long01_Long01
+    second: {fileID: 2100000, guid: 8f746b01b9a30bd4681a8e31b08d999f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amber_Shoes04_Shoes04
+    second: {fileID: 2100000, guid: 3f28c51e6bfdf36489583316b8edeb78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CyanShirt
+    second: {fileID: 2100000, guid: ddd5aeecb2439ce46bd77435ee3cee71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Body_Defaultskin
+    second: {fileID: 2100000, guid: 30bdf5ceb3525854bb53767fa7158998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Eyebrow003_Eyebrow003
+    second: {fileID: 2100000, guid: d7ab2b61082edad4098e88acd641c142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Eyelashes03_Bodymaterial
+    second: {fileID: 2100000, guid: d7047a5e649009e48b4bc267d30f2a43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Female_casualsuit02_Female_casualsuit02
+    second: {fileID: 2100000, guid: 841381c95277cf643be4cd3502e89217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_High-poly_Eye_brown
+    second: {fileID: 2100000, guid: 2d5fbd31909d14f4a80cd7199c7209fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Ponytail01_Ponytail01
+    second: {fileID: 2100000, guid: 51d987af3cb362841b15831668e52de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Shoes04_Shoes04
+    second: {fileID: 2100000, guid: e9480673660305a4780186d9b17fa2ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Teeth_shape04_Teethmaterial
+    second: {fileID: 2100000, guid: 360e6fe112849564c9a74f122dd7b415, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extraf002_Tongue01_Tongue01material
+    second: {fileID: 2100000, guid: 02a4fae258a4df941bdc6fd6c7e9c8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Human_Cyan_Shirt
+    second: {fileID: 2100000, guid: 10f9ffb44e1d0484bb468734fc182335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turquoise shirt
+    second: {fileID: 2100000, guid: d85a15b76fffdf84587a2b500a18a925, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Walk.001
-      takeName: Walk.001
-      firstFrame: 0
-      lastFrame: 36
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Extraf002
-        weight: 1
-      - path: Extraf002/master
-        weight: 1
-      - path: Extraf002/master/ankle.L
-        weight: 1
-      - path: Extraf002/master/ankle.L/ankle.L_end
-        weight: 1
-      - path: Extraf002/master/ankle.R
-        weight: 1
-      - path: Extraf002/master/ankle.R/ankle.R_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L/knee.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L/knee.pt.ik.L/knee.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/foot.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/foot.pt.ik.L/foot.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R/knee.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R/knee.pt.ik.R/knee.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/foot.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/foot.pt.ik.R/foot.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/gaze_parent
-        weight: 1
-      - path: Extraf002/master/gaze_parent/gaze
-        weight: 1
-      - path: Extraf002/master/gaze_parent/gaze/gaze_end
-        weight: 1
-      - path: Extraf002/master/hand.ik.L
-        weight: 1
-      - path: Extraf002/master/hand.ik.L/hand.ik.L_end
-        weight: 1
-      - path: Extraf002/master/hand.ik.R
-        weight: 1
-      - path: Extraf002/master/hand.ik.R/hand.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/DEF-upper_arm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/DEF-upper_arm.L/DEF-upper_arm.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L/hand.fk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/elbow.link.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/elbow.link.L/elbow.link.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/forearm.ik.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/forearm.ik.L/forearm.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-elbow_fan.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-elbow_fan.L/DEF-elbow_fan.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_index.L/DEF-palm_index.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L/DEF-f_middle.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L/DEF-f_middle.01.L/DEF-f_middle.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-thumb.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-thumb.01.L/DEF-thumb.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L/DEF-f_pinky.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L/DEF-f_pinky.01.L/DEF-f_pinky.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L/DEF-f_ring.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L/DEF-f_ring.01.L/DEF-f_ring.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L/DEF-f_index.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L/DEF-f_index.03.L/DEF-f_index.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/index.L/index.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/DEF-f_middle.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/DEF-f_middle.02.L/DEF-f_middle.02.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/DEF-f_middle.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/DEF-f_middle.03.L/DEF-f_middle.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/middle.L/middle.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L/DEF-f_pinky.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L/DEF-f_pinky.03.L/DEF-f_pinky.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/pinky.L/pinky.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L/DEF-f_ring.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L/DEF-f_ring.03.L/DEF-f_ring.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/ring.L/ring.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/DEF-thumb.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/DEF-thumb.02.L/DEF-thumb.02.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/DEF-thumb.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/DEF-thumb.03.L/DEF-thumb.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.L/thumb.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm_X120.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm_X120.L/forearm_X120.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/serratusIk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/serratusIk.L/serratusIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/shoulderIk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/shoulderIk.L/shoulderIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/DEF-upper_arm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/DEF-upper_arm.R/DEF-upper_arm.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R/hand.fk.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/elbow.link.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/elbow.link.R/elbow.link.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/forearm.ik.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/forearm.ik.R/forearm.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-elbow_fan.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-elbow_fan.R/DEF-elbow_fan.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R/DEF-hand.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R/DEF-hand.R/DEF-hand.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_index.R/DEF-palm_index.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R/DEF-f_middle.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R/DEF-f_middle.01.R/DEF-f_middle.01.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_pinky.R/DEF-palm_pinky.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_ring.R/DEF-palm_ring.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R/DEF-thumb.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R/DEF-thumb.02.R/DEF-thumb.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R/DEF-f_index.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R/DEF-f_index.03.R/DEF-f_index.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/index.R/index.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/DEF-f_middle.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/DEF-f_middle.02.R/DEF-f_middle.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/DEF-f_middle.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/DEF-f_middle.03.R/DEF-f_middle.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/middle.R/middle.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R/DEF-f_pinky.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R/DEF-f_pinky.02.R/DEF-f_pinky.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/DEF-f_pinky.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/DEF-f_pinky.03.R/DEF-f_pinky.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/pinky.R/pinky.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/DEF-f_ring.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/DEF-f_ring.01.R/DEF-f_ring.01.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R/DEF-f_ring.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R/DEF-f_ring.03.R/DEF-f_ring.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/ring.R/ring.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/DEF-thumb.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/DEF-thumb.03.R/DEF-thumb.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.R/thumb.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm_X120.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm_X120.R/forearm_X120.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/serratusIk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/serratusIk.R/serratusIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/shoulderIk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/shoulderIk.R/shoulderIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.L
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.L/DEF-pelvis.L_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.R
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.R/DEF-pelvis.R_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-spine
-        weight: 1
-      - path: Extraf002/master/root/DEF-spine/DEF-spine_end
-        weight: 1
-      - path: Extraf002/master/root/hips
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.L
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.L/DEF-gluteus.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.R
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.R/DEF-gluteus.R_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.L
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.L/DEF-hip.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.R
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.R/DEF-hip.R_end
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L/leg_base.L
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L/leg_base.L/leg_base.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R/leg_base.R
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R/leg_base.R/leg_base.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/DEF-thigh.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/DEF-thigh.L/DEF-thigh.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/ball.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/ball.marker.L/ball.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/heel.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/heel.marker.L/heel.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L/toe.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L/toe.marker.L/toe.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/knee.link.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/knee.link.L/knee.link.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/shin.ik.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/shin.ik.L/shin.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-knee_fan.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-knee_fan.L/DEF-knee_fan.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L/DEF-foot.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L/DEF-foot.L/DEF-foot.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/gluteusIk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/gluteusIk.L/gluteusIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/hipIk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/hipIk.L/hipIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/DEF-toe.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/DEF-toe.L/DEF-toe.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/toe.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin_X150.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin_X150.L/shin_X150.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh_X-90.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh_X-90.L/thigh_X-90.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/DEF-thigh.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/DEF-thigh.R/DEF-thigh.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/ball.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/ball.marker.R/ball.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/heel.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/heel.marker.R/heel.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R/toe.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R/toe.marker.R/toe.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/knee.link.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/knee.link.R/knee.link.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/shin.ik.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/shin.ik.R/shin.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-knee_fan.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-knee_fan.R/DEF-knee_fan.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R/DEF-toe.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R/DEF-toe.R/DEF-toe.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/gluteusIk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/gluteusIk.R/gluteusIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/hipIk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/hipIk.R/hipIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R/toe.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin_X150.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin_X150.R/shin_X150.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh_X-90.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh_X-90.R/thigh_X-90.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest/DEF-chest-1
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest/DEF-chest-1/DEF-chest-1_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/DEF-deltoid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/DEF-deltoid.L/DEF-deltoid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/pectIk.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/pectIk.L/pectIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/arm_base.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/arm_base.L/arm_base.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/elbow.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/elbow.pt.ik.L/elbow.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/DEF-deltoid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/DEF-deltoid.R/DEF-deltoid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/pectIk.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/pectIk.R/pectIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/arm_base.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/arm_base.R/arm_base.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/elbow.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/elbow.pt.ik.R/elbow.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.L/DEF-clavicle.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.R/DEF-clavicle.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck/DEF-neck-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck/DEF-neck-1/DEF-neck-1_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-sternum
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-sternum/DEF-sternum_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-lolid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-lolid.R/DEF-lolid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-uplid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-uplid.R/DEF-uplid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base/DEF-tongue_mid
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base/DEF-tongue_mid/DEF-tongue_mid_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-lolid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-lolid.L/DEF-lolid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-uplid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-uplid.L/DEF-uplid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/DEF-eye.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/DEF-eye.L/DEF-eye.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/eye.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/eye.L/eye.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/DEF-eye.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/DEF-eye.R/DEF-eye.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/eye.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/eye.R/eye.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eyes
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eyes/eyes_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/DEF-tongue_tip
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/DEF-tongue_tip/DEF-tongue_tip_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/tongue_tip
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/tongue_tip/tongue_tip_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.L/lolid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.R/lolid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.L/uplid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.R/uplid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L/DEF-scapula.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L/DEF-scapula.L/DEF-scapula.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R/DEF-scapula.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R/DEF-scapula.R/DEF-scapula.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/breast.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/breast.L/breast.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/DEF-breast.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/DEF-breast.L/DEF-breast.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/breast.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/breast.R/breast.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/DEF-breast.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/DEF-breast.R/DEF-breast.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.L/DEF-serratus.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.R/DEF-serratus.R_end
-        weight: 1
-      - path: Extraf002:Body
-        weight: 1
-      - path: Extraf002:Eyebrow003
-        weight: 1
-      - path: Extraf002:Eyelashes03
-        weight: 1
-      - path: Extraf002:Female_casualsuit02
-        weight: 1
-      - path: Extraf002:High-poly
-        weight: 1
-      - path: Extraf002:Ponytail01
-        weight: 1
-      - path: Extraf002:Shoes04
-        weight: 1
-      - path: Extraf002:Teeth_shape04
-        weight: 1
-      - path: Extraf002:Tongue01
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Wait.001
-      takeName: Wait.001
-      firstFrame: 0
-      lastFrame: 36
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Extraf002
-        weight: 1
-      - path: Extraf002/master
-        weight: 1
-      - path: Extraf002/master/ankle.L
-        weight: 1
-      - path: Extraf002/master/ankle.L/ankle.L_end
-        weight: 1
-      - path: Extraf002/master/ankle.R
-        weight: 1
-      - path: Extraf002/master/ankle.R/ankle.R_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L/knee.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/ankle.ik.L/knee.pt.ik.L/knee.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/foot.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/foot.ik.L/toe.rev.L/foot.rev.L/foot.pt.ik.L/foot.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R/knee.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/ankle.ik.R/knee.pt.ik.R/knee.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/foot.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/foot.ik.R/toe.rev.R/foot.rev.R/foot.pt.ik.R/foot.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/gaze_parent
-        weight: 1
-      - path: Extraf002/master/gaze_parent/gaze
-        weight: 1
-      - path: Extraf002/master/gaze_parent/gaze/gaze_end
-        weight: 1
-      - path: Extraf002/master/hand.ik.L
-        weight: 1
-      - path: Extraf002/master/hand.ik.L/hand.ik.L_end
-        weight: 1
-      - path: Extraf002/master/hand.ik.R
-        weight: 1
-      - path: Extraf002/master/hand.ik.R/hand.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/DEF-upper_arm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/DEF-upper_arm.L/DEF-upper_arm.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L/hand.fk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/elbow.link.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/elbow.link.L/elbow.link.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/forearm.ik.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.ik.L/forearm.ik.L/forearm.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-elbow_fan.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-elbow_fan.L/DEF-elbow_fan.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_index.L/DEF-palm_index.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L/DEF-f_middle.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-palm_middle.L/DEF-f_middle.01.L/DEF-f_middle.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-thumb.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/DEF-forearm.01.L/DEF-forearm.02.L/DEF-forearm.03.L/DEF-hand.L/DEF-thumb.01.L/DEF-thumb.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L/DEF-f_pinky.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_pinky.L/DEF-f_pinky.01.L/DEF-f_pinky.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L/DEF-f_ring.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/DEF-palm_ring.L/DEF-f_ring.01.L/DEF-f_ring.01.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L/DEF-f_index.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/DEF-f_index.01.L/DEF-f_index.02.L/DEF-f_index.03.L/DEF-f_index.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/index.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_index.L/index.L/index.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/DEF-f_middle.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/DEF-f_middle.02.L/DEF-f_middle.02.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/DEF-f_middle.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/DEF-f_middle.03.L/DEF-f_middle.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/middle.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_middle.L/middle.L/middle.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L/DEF-f_pinky.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/DEF-f_pinky.02.L/DEF-f_pinky.03.L/DEF-f_pinky.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/pinky.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_pinky.L/pinky.L/pinky.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L/DEF-f_ring.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/DEF-f_ring.02.L/DEF-f_ring.03.L/DEF-f_ring.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/ring.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/palm_ring.L/ring.L/ring.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/DEF-thumb.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/DEF-thumb.02.L/DEF-thumb.02.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/DEF-thumb.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/DEF-thumb.03.L/DEF-thumb.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm.L/hand.L/thumb.01.L/thumb.L/thumb.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm_X120.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/forearm_X120.L/forearm_X120.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/serratusIk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/serratusIk.L/serratusIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/shoulderIk.L
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.L/arm_socket.L/upper_arm.L/shoulderIk.L/shoulderIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/DEF-upper_arm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/DEF-upper_arm.R/DEF-upper_arm.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R/hand.fk.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/elbow.link.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/elbow.link.R/elbow.link.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/forearm.ik.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.ik.R/forearm.ik.R/forearm.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-elbow_fan.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-elbow_fan.R/DEF-elbow_fan.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R/DEF-hand.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/DEF-forearm.01.R/DEF-forearm.02.R/DEF-forearm.03.R/DEF-hand.R/DEF-hand.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_index.R/DEF-palm_index.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R/DEF-f_middle.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_middle.R/DEF-f_middle.01.R/DEF-f_middle.01.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_pinky.R/DEF-palm_pinky.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-palm_ring.R/DEF-palm_ring.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R/DEF-thumb.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/DEF-thumb.01.R/DEF-thumb.02.R/DEF-thumb.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R/DEF-f_index.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/DEF-f_index.01.R/DEF-f_index.02.R/DEF-f_index.03.R/DEF-f_index.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/index.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_index.R/index.R/index.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/DEF-f_middle.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/DEF-f_middle.02.R/DEF-f_middle.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/DEF-f_middle.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/DEF-f_middle.03.R/DEF-f_middle.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/middle.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_middle.R/middle.R/middle.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R/DEF-f_pinky.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/DEF-f_pinky.01.R/DEF-f_pinky.02.R/DEF-f_pinky.02.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/DEF-f_pinky.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/DEF-f_pinky.03.R/DEF-f_pinky.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/pinky.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_pinky.R/pinky.R/pinky.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/DEF-f_ring.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/DEF-f_ring.01.R/DEF-f_ring.01.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R/DEF-f_ring.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/DEF-f_ring.02.R/DEF-f_ring.03.R/DEF-f_ring.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/ring.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/palm_ring.R/ring.R/ring.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/DEF-thumb.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/DEF-thumb.03.R/DEF-thumb.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm.R/hand.R/thumb.01.R/thumb.R/thumb.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm_X120.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/forearm_X120.R/forearm_X120.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/serratusIk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/serratusIk.R/serratusIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/shoulderIk.R
-        weight: 1
-      - path: Extraf002/master/root/arm_hinge.R/arm_socket.R/upper_arm.R/shoulderIk.R/shoulderIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.L
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.L/DEF-pelvis.L_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.R
-        weight: 1
-      - path: Extraf002/master/root/DEF-hips/DEF-pelvis.R/DEF-pelvis.R_end
-        weight: 1
-      - path: Extraf002/master/root/DEF-spine
-        weight: 1
-      - path: Extraf002/master/root/DEF-spine/DEF-spine_end
-        weight: 1
-      - path: Extraf002/master/root/hips
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.L
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.L/DEF-gluteus.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.R
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-gluteus.R/DEF-gluteus.R_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.L
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.L/DEF-hip.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.R
-        weight: 1
-      - path: Extraf002/master/root/hips/DEF-hip.R/DEF-hip.R_end
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L/leg_base.L
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.L/leg_base.L/leg_base.L_end
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R/leg_base.R
-        weight: 1
-      - path: Extraf002/master/root/hips/pelvis.R/leg_base.R/leg_base.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/DEF-thigh.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/DEF-thigh.L/DEF-thigh.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/ball.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/ball.marker.L/ball.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/heel.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/heel.marker.L/heel.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L/toe.marker.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L/toe.marker.L/toe.marker.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/knee.link.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/knee.link.L/knee.link.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/shin.ik.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.ik.L/shin.ik.L/shin.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-knee_fan.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-knee_fan.L/DEF-knee_fan.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L/DEF-foot.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/DEF-shin.01.L/DEF-shin.02.L/DEF-shin.03.L/DEF-foot.L/DEF-foot.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/gluteusIk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/gluteusIk.L/gluteusIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/hipIk.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/hipIk.L/hipIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/DEF-toe.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/DEF-toe.L/DEF-toe.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/toe.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin_X150.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh.L/shin_X150.L/shin_X150.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh_X-90.L
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.L/leg_socket.L/thigh_X-90.L/thigh_X-90.L_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/DEF-thigh.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/DEF-thigh.R/DEF-thigh.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/ball.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/ball.marker.R/ball.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/heel.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/heel.marker.R/heel.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R/toe.marker.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R/toe.marker.R/toe.marker.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/knee.link.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/knee.link.R/knee.link.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/shin.ik.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.ik.R/shin.ik.R/shin.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-knee_fan.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-knee_fan.R/DEF-knee_fan.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R/DEF-toe.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/DEF-shin.01.R/DEF-shin.02.R/DEF-shin.03.R/DEF-foot.R/DEF-toe.R/DEF-toe.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/gluteusIk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/gluteusIk.R/gluteusIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/hipIk.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/hipIk.R/hipIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R/toe.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin_X150.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh.R/shin_X150.R/shin_X150.R_end
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh_X-90.R
-        weight: 1
-      - path: Extraf002/master/root/leg_hinge.R/leg_socket.R/thigh_X-90.R/thigh_X-90.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest/DEF-chest-1
-        weight: 1
-      - path: Extraf002/master/root/spine/DEF-spine-1/DEF-chest/DEF-chest-1/DEF-chest-1_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/DEF-deltoid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/DEF-deltoid.L/DEF-deltoid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/pectIk.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/pectIk.L/pectIk.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/arm_base.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/arm_base.L/arm_base.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/elbow.pt.ik.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.L/shoulder01.L/elbow.pt.ik.L/elbow.pt.ik.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/DEF-deltoid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/DEF-deltoid.R/DEF-deltoid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/pectIk.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/pectIk.R/pectIk.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/arm_base.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/arm_base.R/arm_base.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/elbow.pt.ik.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/clavicle.R/shoulder01.R/elbow.pt.ik.R/elbow.pt.ik.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.L/DEF-clavicle.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-clavicle.R/DEF-clavicle.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck/DEF-neck-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-neck/DEF-neck-1/DEF-neck-1_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-sternum
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/DEF-sternum/DEF-sternum_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-lolid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-lolid.R/DEF-lolid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-uplid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/DEF-head/DEF-uplid.R/DEF-uplid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base/DEF-tongue_mid
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-jaw/DEF-tongue_base/DEF-tongue_mid/DEF-tongue_mid_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-lolid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-lolid.L/DEF-lolid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-uplid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/DEF-uplid.L/DEF-uplid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/DEF-eye.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/DEF-eye.L/DEF-eye.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/eye.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.L/eye.L/eye.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/DEF-eye.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/DEF-eye.R/DEF-eye.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/eye.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eye_parent.R/eye.R/eye.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eyes
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/eyes/eyes_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/DEF-tongue_tip
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/DEF-tongue_tip/DEF-tongue_tip_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/tongue_tip
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/jaw/tongue_base/tongue_mid/tongue_tip/tongue_tip_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.L/lolid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/lolid.R/lolid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.L/uplid.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/neck/neck-1/head/uplid.R/uplid.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L/DEF-scapula.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.L/DEF-scapula.L/DEF-scapula.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R/DEF-scapula.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/chest-1/scap-parent.R/DEF-scapula.R/DEF-scapula.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/breast.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/breast.L/breast.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/DEF-breast.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.L/DEF-breast.L/DEF-breast.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/breast.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/breast.R/breast.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/DEF-breast.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-pect.R/DEF-breast.R/DEF-breast.R_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.L
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.L/DEF-serratus.L_end
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.R
-        weight: 1
-      - path: Extraf002/master/root/spine/spine-1/chest/DEF-serratus.R/DEF-serratus.R_end
-        weight: 1
-      - path: Extraf002:Body
-        weight: 1
-      - path: Extraf002:Eyebrow003
-        weight: 1
-      - path: Extraf002:Eyelashes03
-        weight: 1
-      - path: Extraf002:Female_casualsuit02
-        weight: 1
-      - path: Extraf002:High-poly
-        weight: 1
-      - path: Extraf002:Ponytail01
-        weight: 1
-      - path: Extraf002:Shoes04
-        weight: 1
-      - path: Extraf002:Teeth_shape04
-        weight: 1
-      - path: Extraf002:Tongue01
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    extraUserProperties: []
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.4
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -2713,11 +1104,973 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    serializedVersion: 2
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.02.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.03.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.02.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.03.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.02.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.03.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.02.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.03.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest1
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Amber(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Amber:Body
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Amber:Female_casualsuit02
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Amber:High-poly
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Amber:Long01
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Amber:Shoes04
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: AmberArmature
+      parentName: Amber(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hips
+      parentName: AmberArmature
+      position: {x: -0.000036663, y: -0.0014351, z: 0.0791016}
+      rotation: {x: 0.6339234, y: 0.0010870969, z: -0.00089322956, w: 0.7733946}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: spine
+      parentName: hips
+      position: {x: 2.0405994e-10, y: 0.013284041, z: 0.000000101178884}
+      rotation: {x: 0.08406068, y: -0.00015754424, z: 0.0013981481, w: 0.99645966}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: chest
+      parentName: spine
+      position: {x: -3.9481223e-18, y: 0.0062914947, z: -0.000000042468308}
+      rotation: {x: -0.053139023, y: 0.0006935724, z: 0.013033613, w: 0.99850184}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: chest1
+      parentName: chest
+      position: {x: 0.000000007787021, y: 0.0115044415, z: 0.00000007633023}
+      rotation: {x: 0.2014103, y: -0.0026306268, z: -0.012784879, w: 0.97942}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: chest1
+      position: {x: -2.16923e-11, y: 0.01598437, z: 0.0000002124551}
+      rotation: {x: -0.01515488, y: -0.0053476295, z: -0.011369083, w: 0.9998062}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: head
+      parentName: neck
+      position: {x: 0.000000009114156, y: 0.011362195, z: 0.00000008902716}
+      rotation: {x: -0.15042545, y: 0.0035791327, z: 0.012069296, w: 0.9885412}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: jaw
+      parentName: head
+      position: {x: -0.00000029747562, y: 0.00076271646, z: 0.0007994196}
+      rotation: {x: 0.931945, y: -0.000071685026, z: 0.00016263075, w: 0.36259976}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: tongue_base
+      parentName: jaw
+      position: {x: 0.00000005082408, y: 0.0041348967, z: 0.0021907764}
+      rotation: {x: 0.00063546305, y: 0.791669, z: -0.61094934, w: -0.00084176956}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: tongue_mod
+      parentName: tongue_base
+      position: {x: 3.0267983e-11, y: 0.0032394594, z: -0.000000002029592}
+      rotation: {x: -0.27876574, y: -0.0001085873, z: -0.0005548389, w: 0.960359}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue_tip
+      parentName: tongue_mod
+      position: {x: -0.0000000013912722, y: 0.0018190466, z: 0.0000007525069}
+      rotation: {x: -0.26799318, y: 0.000022831176, z: -0.0005094469, w: 0.9634207}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: tongue_tip_end
+      parentName: tongue_tip
+      position: {x: -0, y: 0.0015401787, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lolid.L
+      parentName: head
+      position: {x: -0.0029927662, y: 0.0034918296, z: 0.007227732}
+      rotation: {x: -0.02608839, y: 0.4977736, z: 0.86664176, w: 0.021747274}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: lolid.L_end
+      parentName: lolid.L
+      position: {x: -0, y: 0.0034397396, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lolid.R
+      parentName: head
+      position: {x: 0.0029986333, y: 0.0034828554, z: 0.0072294017}
+      rotation: {x: 0.025766296, y: 0.49778175, z: 0.86665124, w: -0.021564914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lolid.R_end
+      parentName: lolid.R
+      position: {x: -0, y: 0.0034397396, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uplid.L
+      parentName: head
+      position: {x: -0.0029927662, y: 0.0034918296, z: 0.007227732}
+      rotation: {x: -0.017896015, y: 0.7456742, z: 0.6654445, w: 0.028870225}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: uplid.L_end
+      parentName: uplid.L
+      position: {x: -0, y: 0.0032858802, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uplid.R
+      parentName: head
+      position: {x: 0.0029986333, y: 0.0034828554, z: 0.0072294017}
+      rotation: {x: 0.017649572, y: 0.74568486, z: 0.6654511, w: -0.028591933}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: uplid.R_end
+      parentName: uplid.R
+      position: {x: -0, y: 0.0032858863, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.L
+      parentName: head
+      position: {x: -0.0029927662, y: 0.0034918296, z: 0.007227732}
+      rotation: {x: -0.020962827, y: 0.6261929, z: 0.77902466, w: 0.023741707}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: eye.L_end
+      parentName: eye.L
+      position: {x: -0, y: 0.0034021079, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.R
+      parentName: head
+      position: {x: 0.0029986333, y: 0.0034828554, z: 0.0072294017}
+      rotation: {x: 0.020672264, y: 0.6262015, z: 0.7790324, w: -0.023512894}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: eye.R_end
+      parentName: eye.R
+      position: {x: -0, y: 0.003402114, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: chest1
+      position: {x: -0.0020083082, y: 0.0106092375, z: 0.0033912938}
+      rotation: {x: -0.14642438, y: 0.10891574, z: 0.76201725, w: 0.6213107}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.00000025402753, y: 0.0134282, z: -0.00000005841255}
+      rotation: {x: 0.045851555, y: -0.07985943, z: -0.06538507, w: 0.99360204}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: -0.00000012528152, y: 0.02207684, z: -0.000000016391278}
+      rotation: {x: 0.011329436, y: 0.0164644, z: -0.0283707, w: 0.9993977}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: 0.0000003518164, y: 0.02065606, z: 0.0000000333786}
+      rotation: {x: 0.008513215, y: -0.22416867, z: 0.08320682, w: 0.9709544}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: thumb.01.L
+      parentName: hand.L
+      position: {x: 0.0014750087, y: 0.0033162534, z: 0.0015969574}
+      rotation: {x: -0.12446192, y: 0.72725964, z: 0.40892917, w: -0.53700995}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: thumb.02.L
+      parentName: thumb.01.L
+      position: {x: -0.00000068724154, y: 0.0027515756, z: -0.0000001424551}
+      rotation: {x: 0.010835955, y: 0.01907908, z: 0.031353906, w: 0.99926746}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: thumb.03.L
+      parentName: thumb.02.L
+      position: {x: 0.00000077366826, y: 0.003302661, z: -0.00000010967254}
+      rotation: {x: 0.035590857, y: 0.0044572153, z: 0.0084756585, w: 0.99932057}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999998}
+    - name: thumb.03.L_end
+      parentName: thumb.03.L
+      position: {x: -0, y: 0.0025990286, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index.01.L
+      parentName: hand.L
+      position: {x: 0.0014595115, y: 0.009079396, z: 0.0018500506}
+      rotation: {x: 0.07694347, y: -0.4758613, z: -0.019504726, w: 0.875931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index.02.L
+      parentName: f_index.01.L
+      position: {x: 0.0000004804134, y: 0.002407031, z: -0.00000020265578}
+      rotation: {x: 0.0376421, y: -0.003312856, z: -0.0024364032, w: 0.99928284}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: f_index.03.L
+      parentName: f_index.02.L
+      position: {x: 0.000000005960464, y: 0.0021427555, z: 0.00000061154367}
+      rotation: {x: 0.03846276, y: -0.00009196692, z: -0.012755403, w: 0.9991787}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: f_index.03.L_end
+      parentName: f_index.03.L
+      position: {x: -0, y: 0.0024688132, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.01.L
+      parentName: hand.L
+      position: {x: -0.00000048935414, y: 0.008995971, z: -0.0000003159046}
+      rotation: {x: 0.06126472, y: -0.4173617, z: 0.048308186, w: 0.90538514}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: f_middle.02.L
+      parentName: f_middle.01.L
+      position: {x: 0.00000047683716, y: 0.0030337297, z: -0.00000008463859}
+      rotation: {x: 0.03261376, y: -0.0014312859, z: -0.024441397, w: 0.99916816}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: f_middle.03.L
+      parentName: f_middle.02.L
+      position: {x: -0.0000002503395, y: 0.0025507088, z: -0.00000022292137}
+      rotation: {x: 0.039769147, y: -0.000008631144, z: 0.0031292727, w: 0.999204}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: f_middle.03.L_end
+      parentName: f_middle.03.L
+      position: {x: -0, y: 0.0024798922, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.01.L
+      parentName: hand.L
+      position: {x: -0.002762667, y: 0.0076171025, z: -0.0019278609}
+      rotation: {x: 0.023344366, y: -0.3125659, z: 0.068451725, w: 0.9471388}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: f_pinky.02.L
+      parentName: f_pinky.01.L
+      position: {x: -0.00000027418136, y: 0.0019659267, z: 0.0000006437302}
+      rotation: {x: 0.037983462, y: -0.00079220504, z: -0.008017198, w: 0.9992459}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: f_pinky.03.L
+      parentName: f_pinky.02.L
+      position: {x: 0.00000043869017, y: 0.0014275991, z: 0.000000094175334}
+      rotation: {x: -0.014743889, y: -0.000020229883, z: 0.010976042, w: 0.9998311}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: f_pinky.03.L_end
+      parentName: f_pinky.03.L
+      position: {x: -0, y: 0.0018010151, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring.01.L
+      parentName: hand.L
+      position: {x: -0.0012670719, y: 0.00847961, z: -0.0011696863}
+      rotation: {x: 0.034272455, y: -0.39767358, z: 0.068154044, w: 0.91435015}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: f_ring.02.L
+      parentName: f_ring.01.L
+      position: {x: -0.00000036001205, y: 0.0027238356, z: -0.00000051319597}
+      rotation: {x: 0.033179596, y: -0.0010138152, z: -0.021060485, w: 0.99922705}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: f_ring.03.L
+      parentName: f_ring.02.L
+      position: {x: 0.0000000166893, y: 0.002176097, z: 0.0000007390976}
+      rotation: {x: 0.036868796, y: 0.000086144966, z: 0.01677236, w: 0.99917936}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: f_ring.03.L_end
+      parentName: f_ring.03.L
+      position: {x: -0, y: 0.0024175753, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: chest1
+      position: {x: 0.0020082912, y: 0.010609239, z: 0.003391281}
+      rotation: {x: -0.14471397, y: -0.107517034, z: -0.76234394, w: 0.62155426}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.00000034336, y: 0.013427809, z: -0.00000009447336}
+      rotation: {x: 0.050697614, y: 0.070907846, z: 0.06787068, w: 0.993879}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -0.00000020436943, y: 0.022373203, z: 0.0000000032037495}
+      rotation: {x: 0.01145677, y: -0.012284347, z: 0.024882989, w: 0.99954927}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -0.00000025659799, y: 0.020687709, z: -0.00000027060509}
+      rotation: {x: 0.056049783, y: 0.227803, z: -0.07055119, w: 0.96952915}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: thumb.01.R
+      parentName: hand.R
+      position: {x: -0.001458416, y: 0.0032519817, z: 0.0015491104}
+      rotation: {x: 0.12295844, y: 0.72771, z: 0.40904656, w: 0.5366566}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: thumb.02.R
+      parentName: thumb.01.R
+      position: {x: 0.00000023037195, y: 0.0027012539, z: 0.0000002118945}
+      rotation: {x: 0.010650225, y: -0.019361496, z: -0.031135969, w: 0.9992709}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: thumb.03.R
+      parentName: thumb.02.R
+      position: {x: -0.0000005972385, y: 0.0032790399, z: -0.00000039994717}
+      rotation: {x: 0.035538748, y: -0.0044608177, z: -0.008471716, w: 0.9993225}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: thumb.03.R_end
+      parentName: thumb.03.R
+      position: {x: -0, y: 0.002603989, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index.01.R
+      parentName: hand.R
+      position: {x: -0.0014191335, y: 0.008888676, z: 0.0018152427}
+      rotation: {x: 0.077058814, y: 0.4755765, z: 0.018966222, w: 0.8760874}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: f_index.02.R
+      parentName: f_index.01.R
+      position: {x: -0.00000036478042, y: 0.0024085706, z: -0.00000007510185}
+      rotation: {x: 0.037673444, y: 0.0034101896, z: 0.0024470196, w: 0.99928135}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: f_index.03.R
+      parentName: f_index.02.R
+      position: {x: -0.0000000667572, y: 0.0021426838, z: 0.00000039339065}
+      rotation: {x: 0.038330816, y: 0.000089116365, z: 0.013012787, w: 0.99918044}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: f_index.03.R_end
+      parentName: f_index.03.R
+      position: {x: -0, y: 0.0024586034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.01.R
+      parentName: hand.R
+      position: {x: -0.0000003027916, y: 0.008810103, z: -0.00000008940697}
+      rotation: {x: 0.061307803, y: 0.4178907, z: -0.047723234, w: 0.9051692}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: f_middle.02.R
+      parentName: f_middle.01.R
+      position: {x: 0.000000038146972, y: 0.0030007767, z: 0.0000009083748}
+      rotation: {x: 0.032746043, y: 0.0013709958, z: 0.024598833, w: 0.99916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.03.R
+      parentName: f_middle.02.R
+      position: {x: -0.00000012874602, y: 0.0025452715, z: -0.0000008034706}
+      rotation: {x: 0.03962437, y: 0.0000042562597, z: -0.0029311446, w: 0.9992104}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_middle.03.R_end
+      parentName: f_middle.03.R
+      position: {x: -0, y: 0.0024731674, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.01.R
+      parentName: hand.R
+      position: {x: 0.002704631, y: 0.0074630855, z: -0.0018749255}
+      rotation: {x: 0.023446985, y: 0.31446695, z: -0.06847088, w: 0.9465055}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: f_pinky.02.R
+      parentName: f_pinky.01.R
+      position: {x: -0.0000000500679, y: 0.001956625, z: 0.00000022321939}
+      rotation: {x: 0.03781641, y: 0.00085186906, z: 0.008355647, w: 0.99924946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.03.R
+      parentName: f_pinky.02.R
+      position: {x: 0.000000035762785, y: 0.0014225644, z: 0.000000114440915}
+      rotation: {x: -0.0153306145, y: 0.000019129082, z: -0.011156367, w: 0.99982023}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: f_pinky.03.R_end
+      parentName: f_pinky.03.R
+      position: {x: -0, y: 0.0017858887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring.01.R
+      parentName: hand.R
+      position: {x: 0.0012385433, y: 0.008306396, z: -0.0011396861}
+      rotation: {x: 0.03483746, y: 0.39914334, z: -0.067732364, w: 0.91371953}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+    - name: f_ring.02.R
+      parentName: f_ring.01.R
+      position: {x: 0.00000039339065, y: 0.0027119254, z: -0.00000040590763}
+      rotation: {x: 0.03335341, y: 0.00095289876, z: 0.020851593, w: 0.9992256}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: f_ring.03.R
+      parentName: f_ring.02.R
+      position: {x: -0.0000000047683715, y: 0.0021308435, z: 0.00000060915943}
+      rotation: {x: 0.036751885, y: -0.00009533032, z: -0.017012438, w: 0.9991796}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: f_ring.03.R_end
+      parentName: f_ring.03.R
+      position: {x: -0, y: 0.0023973673, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: hips
+      position: {x: -0.009482185, y: -0.00063290115, z: -0.0006225363}
+      rotation: {x: 0.97511595, y: -0.08075889, z: 0.18728559, w: -0.08689624}
+      scale: {x: 0.99999547, y: 0.9999994, z: 0.99999785}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: -0.0000002706237, y: 0.035247877, z: -0.000000118613244}
+      rotation: {x: 0.0027898927, y: -0.22715275, z: -0.00057390536, w: 0.973855}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: 0.00000043064122, y: 0.03755334, z: -0.0000000064261254}
+      rotation: {x: -0.593262, y: 0.06661939, z: 0.03194038, w: 0.801612}
+      scale: {x: 0.9999976, y: 1.0000013, z: 1.0000006}
+    - name: toe.L
+      parentName: foot.L
+      position: {x: -0.00000008527189, y: 0.01248286, z: -0.00000051692126}
+      rotation: {x: -0.035811268, y: -0.0015744434, z: -0.033864453, w: 0.9987834}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: toe.L_end
+      parentName: toe.L
+      position: {x: -0, y: 0.0040142895, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: hips
+      position: {x: 0.009486239, y: -0.00058055, z: -0.0006121212}
+      rotation: {x: 0.9749424, y: 0.0871868, z: -0.18816231, w: -0.080503166}
+      scale: {x: 0.99999756, y: 0.99999994, z: 0.9999988}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: 0.000000099092716, y: 0.035094175, z: -0.00000003181398}
+      rotation: {x: 0.021532975, y: 0.22749445, z: 0.003764273, w: 0.973534}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -0.00000015574507, y: 0.037697077, z: 0.000000036824495}
+      rotation: {x: -0.60331124, y: -0.065300494, z: -0.031738415, w: 0.794194}
+      scale: {x: 0.9999989, y: 1.0000007, z: 1.0000005}
+    - name: toe.R
+      parentName: foot.R
+      position: {x: -0.00000028006733, y: 0.012532645, z: 0.0000002479553}
+      rotation: {x: -0.03649626, y: 0.0015550654, z: 0.03334987, w: 0.99877596}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: toe.R_end
+      parentName: toe.R
+      position: {x: -0, y: 0.0040295185, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: handIK.L
+      parentName: AmberArmature
+      position: {x: -0.045595996, y: -0.021866, z: 0.100984}
+      rotation: {x: 0.66223454, y: -0.3391868, z: 0.66795945, w: -0.015097185}
+      scale: {x: 0.99999976, y: 0.99999946, z: 0.99999964}
+    - name: handIK.L_end
+      parentName: handIK.L
+      position: {x: -0, y: 0.010052108, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: handIK.R
+      parentName: AmberArmature
+      position: {x: 0.046391, y: -0.022502998, z: 0.10028299}
+      rotation: {x: -0.6616224, y: -0.33922964, z: 0.668441, w: 0.019123595}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: handIK.R_end
+      parentName: handIK.R
+      position: {x: -0, y: 0.010519948, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: footIK.L
+      parentName: AmberArmature
+      position: {x: -0.018762, y: -0.00037188, z: 0.0061310004}
+      rotation: {x: 0.98656714, y: -0.04649392, z: -0.042891074, w: -0.15061203}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999991}
+    - name: footIK.L_end
+      parentName: footIK.L
+      position: {x: -0, y: 0.013216722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: footIK.R
+      parentName: AmberArmature
+      position: {x: 0.018874, y: 0.00026984, z: 0.0062349983}
+      rotation: {x: 0.98650134, y: 0.04701878, z: 0.041895524, w: -0.15115942}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.999998}
+    - name: footIK.R_end
+      parentName: footIK.R
+      position: {x: -0, y: 0.0134048, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.L
+      parentName: AmberArmature
+      position: {x: -0.015603678, y: -0.05386462, z: 0.048337173}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.L_end
+      parentName: KneePole.L
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.R
+      parentName: AmberArmature
+      position: {x: 0.015761, y: -0.0538717, z: 0.048927}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.R_end
+      parentName: KneePole.R
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.L
+      parentName: AmberArmature
+      position: {x: -0.03240986, y: 0.04715521, z: 0.113778815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.L_end
+      parentName: ElbowPole.L
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.R
+      parentName: AmberArmature
+      position: {x: 0.032807462, y: 0.04715336, z: 0.11352748}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.R_end
+      parentName: ElbowPole.R
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -2726,9 +2079,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

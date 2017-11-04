@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 6a08f8d570fb85340a93174596bfcc9f
+timeCreated: 1507709634
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ArmatureDoors
+    100002: //RootNode
+    100004: Doors
+    100006: LeftBone
+    100008: LeftBone_end
+    100010: RightBone
+    100012: RightBone_end
+    100014: DoorLeft
+    100016: DoorRight
+    100018: ArmatureWheels
+    100020: BusFrame
+    100022: Wheel.001
+    100024: Wheel.002
+    100026: Wheel.003
+    100028: WheelAbove
+    100030: WheelAbove.001
+    100032: WheelAbove.002
+    100034: WheelFront
+    100036: WheelFront.001
+    100038: WheelFront.001_end
+    100040: WheelFront.002
+    100042: WheelFront.002_end
+    100044: WheelFront_end
+    100046: WheelPivot
+    100048: WheelPivot.001
+    100050: WheelPivot.001_end
+    100052: WheelPivot.002
+    100054: WheelPivot.002_end
+    100056: WheelPivot_end
+    100058: WheelUp
+    100060: WheelUp.001
+    100062: WheelUp.002
+    400000: ArmatureDoors
+    400002: //RootNode
+    400004: Doors
+    400006: LeftBone
+    400008: LeftBone_end
+    400010: RightBone
+    400012: RightBone_end
+    400014: DoorLeft
+    400016: DoorRight
+    400018: ArmatureWheels
+    400020: BusFrame
+    400022: Wheel.001
+    400024: Wheel.002
+    400026: Wheel.003
+    400028: WheelAbove
+    400030: WheelAbove.001
+    400032: WheelAbove.002
+    400034: WheelFront
+    400036: WheelFront.001
+    400038: WheelFront.001_end
+    400040: WheelFront.002
+    400042: WheelFront.002_end
+    400044: WheelFront_end
+    400046: WheelPivot
+    400048: WheelPivot.001
+    400050: WheelPivot.001_end
+    400052: WheelPivot.002
+    400054: WheelPivot.002_end
+    400056: WheelPivot_end
+    400058: WheelUp
+    400060: WheelUp.001
+    400062: WheelUp.002
+    2300000: BusFrame
+    2300002: Wheel.001
+    2300004: Wheel.002
+    2300006: Wheel.003
+    3300000: BusFrame
+    3300002: Wheel.001
+    3300004: Wheel.002
+    3300006: Wheel.003
+    4300000: Doors
+    4300002: DoorRight
+    4300004: DoorLeft
+    4300006: BusFrame
+    4300008: Wheel.001
+    4300010: Wheel.002
+    4300012: Wheel.003
+    7400000: BusDoorIdle
+    7400002: DoorClose
+    7400004: DoorOpen
+    7400006: DriveEndRight
+    7400008: DriveInRight
+    7400010: DriveStartRight
+    7400012: DriveStraight
+    7400014: BusWheelIdle
+    7400016: BusDoorIdle (1)
+    9500000: //RootNode
+    13700000: Doors
+    13700002: DoorLeft
+    13700004: DoorRight
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BusDoor_Tinted_Window
+    second: {fileID: 2100000, guid: ea2ea14133da530479e5126fad03cefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BusDoor_Yellow_Metal
+    second: {fileID: 2100000, guid: 8230d6adece323a458a92b0cbecf4f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Black_Metal
+    second: {fileID: 2100000, guid: da469c6607236164da1a362b91f81eb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Gray_Interior
+    second: {fileID: 2100000, guid: cbbb65df7c021fa48ba10c58eff146df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_NavyBlue_Seat
+    second: {fileID: 2100000, guid: e2d6ba2ee5466de4396a400520a7ca3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Red_Light
+    second: {fileID: 2100000, guid: 072edf1b60e06474283a74fb2ecf8a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Tinted_Window
+    second: {fileID: 2100000, guid: 3f072e5ac323f204aab89a0d4c924306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_White_Roof
+    second: {fileID: 2100000, guid: b4379d272ac629e49aff1fd4dd1c6370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Yellow_Light
+    second: {fileID: 2100000, guid: abf6af84cbffc314ba0610630f8e408f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Yellow_Metal
+    second: {fileID: 2100000, guid: 405ce32f15e90e44ab4b2a0007cd02b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TintedWindow.002
+    second: {fileID: 2100000, guid: ea2ea14133da530479e5126fad03cefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_Black_Tire
+    second: {fileID: 2100000, guid: fa603b992e7c82d44bed32da0a0375ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_Gray_Interior
+    second: {fileID: 2100000, guid: 00d70e858bc8f744c8837cd67b6b5fc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowMetal.001
+    second: {fileID: 2100000, guid: 9e52bd7c45f5b02488da2030b513e71c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DoorClose
+      takeName: DoorClose
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DoorOpen
+      takeName: DoorOpen
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BusDoorIdle
+      takeName: BusDoorIdle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWOS", "TWOS.csproj", "{51501B95-1DDD-D634-541F-F64E00161F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWOS.Plugins", "TWOS.Plugins.csproj", "{69CB4707-0B18-597B-96F0-1A575F7AEB23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{51501B95-1DDD-D634-541F-F64E00161F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51501B95-1DDD-D634-541F-F64E00161F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51501B95-1DDD-D634-541F-F64E00161F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CB4707-0B18-597B-96F0-1A575F7AEB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CB4707-0B18-597B-96F0-1A575F7AEB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CB4707-0B18-597B-96F0-1A575F7AEB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CB4707-0B18-597B-96F0-1A575F7AEB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

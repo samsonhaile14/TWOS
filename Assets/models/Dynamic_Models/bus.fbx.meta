@@ -3,7 +3,7 @@ guid: a79ff986cce059849bc3bc01cc061cd5
 timeCreated: 1502145887
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: ArmatureBackWheels
     100002: ArmatureDoors
@@ -119,301 +119,149 @@ ModelImporter:
     7400040: DriveInRIght
     7400042: DriveEndRight
     7400044: DriveInRight
+    7400046: BusWheelIdle
+    7400048: BusDoorIdle
     9500000: //RootNode
     13700000: LeftDoor
     13700002: RightDoor
     13700004: Doors
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackMetal.001
+    second: {fileID: 2100000, guid: e7f6009084c298b45855b09b60370c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Black_Metal
+    second: {fileID: 2100000, guid: 7f6a026ed0499434b8edc672c296ff59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Gray_Interior
+    second: {fileID: 2100000, guid: d736da87c0e69bc4d860a8e23094482e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_NavyBlue_Seat
+    second: {fileID: 2100000, guid: ef81d95d3a7391f4f9389b9e84e2d24f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Red_Light
+    second: {fileID: 2100000, guid: 762977ccf17c90046831b0581a5dfdde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Tinted_Window
+    second: {fileID: 2100000, guid: db27ae57628592a44b9ff1afc133d264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_White_Roof
+    second: {fileID: 2100000, guid: 9e59bd0bc4687a54c8fd4bd9abb22d4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Yellow_Light
+    second: {fileID: 2100000, guid: ee616372f09f2154b9aa9ad2b8d33e36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus_Yellow_Metal
+    second: {fileID: 2100000, guid: 7ad494ffde72859458b4ae933e7cf671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DullBlack.001
+    second: {fileID: 2100000, guid: c17db3010e3dadf4f85190bb31e83bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrameGrey
+    second: {fileID: 2100000, guid: cbbb65df7c021fa48ba10c58eff146df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrameGrey.001
+    second: {fileID: 2100000, guid: 5caf20a210b691d4dbd61a01a834f907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetallicBlack
+    second: {fileID: 2100000, guid: da469c6607236164da1a362b91f81eb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NavyBlueSeat.001
+    second: {fileID: 2100000, guid: e2d6ba2ee5466de4396a400520a7ca3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TintedWindow
+    second: {fileID: 2100000, guid: 3f072e5ac323f204aab89a0d4c924306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TireBlack.001
+    second: {fileID: 2100000, guid: b92d8ab1836f2b14a8af449bebd9bfdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_Black_Tire
+    second: {fileID: 2100000, guid: 23b51af61eab3234c8f63aca2b9b953a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_Gray_Interior
+    second: {fileID: 2100000, guid: 719a0a82ca530044a8f5e2736b9747ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteSurface
+    second: {fileID: 2100000, guid: b4379d272ac629e49aff1fd4dd1c6370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowMetal
+    second: {fileID: 2100000, guid: 405ce32f15e90e44ab4b2a0007cd02b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redlight
+    second: {fileID: 2100000, guid: 072edf1b60e06474283a74fb2ecf8a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowlight
+    second: {fileID: 2100000, guid: 4d1efd82b4ef70a4a8e3c42b163e4f16, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
-    - serializedVersion: 16
-      name: DoorOpen
-      takeName: DoorOpen
-      firstFrame: 0
-      lastFrame: 32
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
-      - path: ArmatureWheels
-        weight: 1
-      - path: ArmatureWheels/WheelAbove
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront/WheelFront_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001/WheelFront.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002/WheelFront.002_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
-        weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: DoorClose
-      takeName: DoorClose
-      firstFrame: 0
-      lastFrame: 32
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
-      - path: ArmatureWheels
-        weight: 1
-      - path: ArmatureWheels/WheelAbove
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront/WheelFront_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001/WheelFront.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002/WheelFront.002_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
-        weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: BusIdle
-      takeName: BusIdle
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
-      - path: ArmatureWheels
-        weight: 1
-      - path: ArmatureWheels/WheelAbove
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelFront/WheelFront_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelFront.001/WheelFront.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelFront.002/WheelFront.002_end
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
-        weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
-        weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: DriveStraight
       takeName: DriveStraight
@@ -441,16 +289,6 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
       - path: ArmatureWheels
         weight: 1
       - path: ArmatureWheels/WheelAbove
@@ -463,7 +301,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
         weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.003
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
         weight: 1
@@ -477,7 +315,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
         weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.002
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
         weight: 1
@@ -491,15 +329,11 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
         weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel.001
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
         weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
+      - path: BusFrame
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
@@ -531,16 +365,6 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
       - path: ArmatureWheels
         weight: 1
       - path: ArmatureWheels/WheelAbove
@@ -553,7 +377,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
         weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.003
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
         weight: 1
@@ -567,7 +391,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
         weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.002
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
         weight: 1
@@ -581,15 +405,11 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
         weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel.001
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
         weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
+      - path: BusFrame
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
@@ -621,16 +441,6 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
       - path: ArmatureWheels
         weight: 1
       - path: ArmatureWheels/WheelAbove
@@ -643,7 +453,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
         weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.003
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
         weight: 1
@@ -657,7 +467,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
         weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.002
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
         weight: 1
@@ -671,15 +481,11 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
         weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel.001
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
         weight: 1
-      - path: BusFrame_Interior
-        weight: 1
-      - path: LeftDoor
-        weight: 1
-      - path: RightDoor
+      - path: BusFrame
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
@@ -711,16 +517,6 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: ArmatureDoors
-        weight: 1
-      - path: ArmatureDoors/LeftBone
-        weight: 1
-      - path: ArmatureDoors/LeftBone/LeftBone_end
-        weight: 1
-      - path: ArmatureDoors/RightBone
-        weight: 1
-      - path: ArmatureDoors/RightBone/RightBone_end
-        weight: 1
       - path: ArmatureWheels
         weight: 1
       - path: ArmatureWheels/WheelAbove
@@ -733,7 +529,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
         weight: 1
-      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.002
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.003
         weight: 1
       - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
         weight: 1
@@ -747,7 +543,7 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
         weight: 1
-      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.001
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.002
         weight: 1
       - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
         weight: 1
@@ -761,15 +557,87 @@ ModelImporter:
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
         weight: 1
-      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel.001
         weight: 1
       - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
         weight: 1
-      - path: BusFrame_Interior
+      - path: BusFrame
         weight: 1
-      - path: LeftDoor
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BusWheelIdle
+      takeName: BusWheelIdle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
         weight: 1
-      - path: RightDoor
+      - path: ArmatureWheels
+        weight: 1
+      - path: ArmatureWheels/WheelAbove
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelFront
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelFront/WheelFront_end
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelUp
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/Wheel.003
+        weight: 1
+      - path: ArmatureWheels/WheelAbove/WheelUp/WheelPivot/WheelPivot_end
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelFront.001
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelFront.001/WheelFront.001_end
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/Wheel.002
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.001/WheelUp.001/WheelPivot.001/WheelPivot.001_end
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelFront.002
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelFront.002/WheelFront.002_end
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/Wheel.001
+        weight: 1
+      - path: ArmatureWheels/WheelAbove.002/WheelUp.002/WheelPivot.002/WheelPivot.002_end
+        weight: 1
+      - path: BusFrame
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
@@ -777,12 +645,15 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -796,9 +667,11 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -809,7 +682,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
